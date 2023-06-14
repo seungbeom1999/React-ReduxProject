@@ -4,8 +4,6 @@ React의 기초를 잡기 위한 공부
 
 ## First Project
 
-JSX에 대한 공부 방법
-
 ### Project File open
 
 <img src="./src/img/Firstpage.png">
