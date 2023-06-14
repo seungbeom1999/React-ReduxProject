@@ -1,6 +1,6 @@
 const EndBox = ({ list, clickRemoveButton, clickCancelButton }) => {
   return (
-    <ul key={list.id} className="list">
+    <ul key={list.id} className="clearList">
       <li>
         <h3>{list.title}</h3>
         <p>{list.detail}</p>
@@ -13,7 +13,7 @@ const EndBox = ({ list, clickRemoveButton, clickCancelButton }) => {
           삭제하기
         </button>
         <button
-          className="completeBtn"
+          className="cancelBtn"
           onClick={() => clickCancelButton(list.id)}
         >
           취소
