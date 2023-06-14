@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import HeaderForm from "./components/HeaderForm";
 import ContinuewList from "./components/ContinewList";
 import EndList from "./components/EndList";
-import validation from "./utils/validation";
+import validation from "./utility/validation";
 
 function App() {
   const [list, setList] = useState([
