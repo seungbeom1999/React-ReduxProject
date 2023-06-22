@@ -6,7 +6,7 @@ import List from "../components/List";
 function Home() {
   //list 값 불러오기
   const lists = useSelector((state) => state.todoList.list);
-  //   console.log(lists);
+  console.log(lists);
   return (
     <StLayout>
       <StHeader>My Todo List</StHeader>

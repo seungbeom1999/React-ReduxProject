@@ -19,7 +19,7 @@ export const passList = (todo) => ({
 const initialState = {
   list: [
     {
-      id: 1,
+      id: crypto.randomUUID(),
       title: "리액트 공부하기",
       detail: "강의 열심히 듣기!",
       isDone: false,

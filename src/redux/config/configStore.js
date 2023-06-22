@@ -2,21 +2,11 @@
 import { createStore } from "redux";
 import { combineReducers } from "redux";
 import todoList from "../modules/todoList";
-const initialState = {
-  list: [
-    {
-      id: 1,
-      title: "리액트 공부하기",
-      detail: "강의 열심히 듣기!",
-      isDone: false,
-    },
-  ],
-};
 
 const rootReducer = combineReducers({
   todoList,
 });
-const store = createStore(rootReducer, initialState);
+const store = createStore(rootReducer);
 
 export default store;
 // export로 내보내면 중괄호 필요

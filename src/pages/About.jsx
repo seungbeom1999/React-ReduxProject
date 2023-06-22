@@ -6,8 +6,9 @@ import { styled } from "styled-components";
 function About() {
   const parmas = useParams();
   const lists = useSelector((state) => state.todoList.list);
+  console.log(lists);
   const foundData = lists.find((item) => {
-    return item.id === parmas.id || parseInt(item.id) === parseInt(parmas.id);
+    return item.id === parmas.id;
   });
   console.log(lists);
   console.log(foundData);
