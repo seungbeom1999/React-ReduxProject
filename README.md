@@ -17,3 +17,4 @@ React의 기초를 잡기 위한 공부
 <img src="./src/img/validation1.png">
 <img src="./src/img/validation2.png">
 <img src="./src/img/validation3.png">
+# React-ReduxProject

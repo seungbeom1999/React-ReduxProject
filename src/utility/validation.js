@@ -1,5 +1,5 @@
 const validation = ({ title, detail }) => {
-  if (title == "") {
+  if (title === "") {
     alert("제목을 입력해주세요");
     return false;
   }
@@ -24,7 +24,7 @@ const validation = ({ title, detail }) => {
       return false;
     }
   }
-  if (detail == "") {
+  if (detail === "") {
     alert("내용을 입력해주세요");
     return false;
   }
